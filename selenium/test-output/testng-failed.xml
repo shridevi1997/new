@@ -3,18 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.case_dup">
+      <class name="tests.NewTest2">
         <methods>
-          <include name="selectProduct"/>
-          <include name="payment"/>
-          <include name="addToCart"/>
-          <include name="signOut"/>
-          <include name="setUp"/>
-          <include name="LoginTestme"/>
-          <include name="getDataFromTable"/>
-          <include name="closeIt"/>
+          <include name="aftertest"/>
+          <include name="beforetest"/>
+          <include name="TestRegistrationButton"/>
         </methods>
-      </class> <!-- tests.case_dup -->
+      </class> <!-- tests.NewTest2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
